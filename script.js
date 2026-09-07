@@ -47,7 +47,7 @@ let score = 0;
 ========================= */
 
 const GOOGLE_SCRIPT_URL =
-  "https://script.google.com/macros/s/AKfycbxBJZRgl8BnXnDFVJUNwIHnoqKCQvjjNgfM5hMrSV_T1ceNrv0EJoa6gN3_L9CUR4uF/exec";
+  "https://script.google.com/macros/s/AKfycbxvpqPDMS6xEGhR1tNhCLR08wl8oDSLMLA4FDtX8ENwGlYb6Rj2DL9hgYvtgOgShKww/exec";
 
 
 function sendQuestion4Answer(answer) {
