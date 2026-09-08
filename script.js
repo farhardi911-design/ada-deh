@@ -19,7 +19,7 @@ const questions = [
     question: "Gimana sifat gw keii?",
     type: "choice",
     answers: ["Baik", "Tengil", "bercanda", "Pendiam"],
-    correct: " bercanda"
+    correct: "bercanda"
   },
   {
     question: "Apa yang lu tahu tentang gw keii?",
