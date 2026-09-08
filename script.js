@@ -4,29 +4,29 @@
 
 const questions = [
   {
-    question: "Apa kegiatan yang sangat disukai sahabat lu keii?",
+    question: "Apa kegiatan yang sangat gw sukai keii?",
     type: "choice",
     answers: [" tidur", "Main game", "Jalan-jalan", "Nonton film"],
     correct: " tidur"
   },
   {
-    question: "Apa hobi sahabat lu keii?",
+    question: "Apa hobi gw keii?",
     type: "choice",
     answers: ["Baca Manhwa", "Main game", "Mancing", "Olahraga"],
     correct: "Baca Manhwa"
   },
   {
-    question: "Gimana sifat sahabat lu keii?",
+    question: "Gimana sifat gw keii?",
     type: "choice",
     answers: ["Baik", "Tengil", "bercanda", "Pendiam"],
     correct: " bercanda"
   },
   {
-    question: "Apa yang lu tahu tentang sahabat lu keii?",
+    question: "Apa yang lu tahu tentang gw keii?",
     type: "text"
   },
   {
-    question: "Kapan tanggal lahir sahabat lu keii?",
+    question: "Kapan tanggal lahir gw keii?",
     type: "choice",
     answers: [
       "16 Maret 2010",
@@ -47,7 +47,7 @@ let score = 0;
 ========================= */
 
 const GOOGLE_SCRIPT_URL =
-  "https://script.google.com/macros/s/AKfycbxvpqPDMS6xEGhR1tNhCLR08wl8oDSLMLA4FDtX8ENwGlYb6Rj2DL9hgYvtgOgShKww/exec";
+  "https://script.google.com/macros/s/AKfycbzbj9n1dMjVTEKGE-ufJnBd8yIbwnui32Eso4TSEPUeeq-rAxR4AZnIkObgRF0C2nCw/exec";
 
 
 function sendQuestion4Answer(answer) {
@@ -264,24 +264,24 @@ function showResult() {
     resultTitle.textContent = "DASAR BEGO 😹";
 
     resultText.textContent =
-      "SAHABAT LU AJA LUPA 😂😹";
+      "GW AJA LU LUPAIN 😂😹";
 
   }
 
   else if (score === 4) {
 
     resultTitle.textContent =
-      "keren keii lu masih inget my best freinds!";
+      "keren keii lu masih inget sama gw!";
 
     resultText.textContent =
-      `Skor kamu ${score}/4. Gila keii berarti lu emang inget gw, sahabat lu keii!`;
+      `Skor kamu ${score}/4. Gokil keii, berarti lu emang sahabat gw keii!`;
 
   }
 
   else if (score >= 2) {
 
     resultTitle.textContent =
-      "😎 berarti lu masih kenal gw walau udah lupa";
+      "😎 untung lu masih inget gw walau udah lupa";
 
     resultText.textContent =
       `Skor kamu ${score}/4. mayan tapi gw hampir dilupain, not bad!`;
@@ -291,7 +291,7 @@ function showResult() {
   else {
 
     resultTitle.textContent =
-      "😂 parah lu udah lupa sama gw ya keii..";
+      "😂 parah lu ya keii, udah lupa sama gw keii..";
 
     resultText.textContent =
       `Skor kamu ${score}/4. Kayaknya lu emang lupa tapi pura2 inget😹`;
