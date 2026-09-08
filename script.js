@@ -32,7 +32,7 @@ const questions = [
       "16 Maret 2010",
       "16 April 2010",
       "17 Maret 2010",
-      "15 Maret 2010"
+      "mana gw tahu"
     ],
     correct: "16 Maret 2010"
   }
